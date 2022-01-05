@@ -1,0 +1,30 @@
+input[type=button], header, #res{
+    margin: 10px 0 0 10px;
+}
+
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+input[type=button]{
+    width: 130px;
+    height: 90px;
+    cursor: pointer;
+    background-color:rgb(126, 221, 250);
+    position: relative;
+}
+
+input[type=button]:hover{
+    /*top:-2px;box-shadow:0 2px 2px #666*/
+        scale:(1.3);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s;
+        
+}
+
+#res{
+    font-size: 20px;
+}
+
